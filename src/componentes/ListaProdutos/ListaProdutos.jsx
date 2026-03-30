@@ -11,6 +11,7 @@ function ListaProdutos() {
                 ))}
             </ul>
         </div>
+        );
 }
 
 export default ListaProdutos;
