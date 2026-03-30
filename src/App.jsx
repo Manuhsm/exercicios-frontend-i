@@ -8,7 +8,7 @@ import MinutoAtual from './componentes/MinutoAtual/MinutoAtual';
 import DataCompletaAtual from './componentes/DataCompletaAtual/DataCompletaAtual';
 import OlaPessoa from './componentes/OlaPessoa/OlaPessoa';
 import ListaProdutos from './componentes/ListaProdutos/ListaProdutos';
-
+import VerificarIdade from './componentes/VerificarIdade/VerificarIdade';
 
 
 function App() {
@@ -86,7 +86,20 @@ function App() {
       </span>
       <ListaProdutos/>
       <hr />
-    </>
+
+      <span>
+       10. Crie um componente chamado 'VerificarIdade' que aceita uma prop chamada
+      'idade' e mostra uma mensagem:
+      "xx anos, é maior de idade" se a idade for maior ou igual a 18, em uma div
+      com o fundo verde e letra amarela;
+      "xx anos, é menor de idade" se for menor que 18, em uma div com o fundo
+      vermelho e letra amarela.;
+      Chame o componente duas vezes, uma para maior de idade e outra para menor de
+      idade
+      </span>
+      <VerificarIdade/>
+      <hr />
+    </> 
   );
 }
 
